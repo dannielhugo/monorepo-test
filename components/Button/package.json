@@ -1,7 +1,8 @@
 {
-  "name": "@monorepo-test/button",
+  "name": "@monorepotest/button",
   "version": "0.1.0",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "e3336a84ea92eef6766168aa83669c9d4adebdd7"
 }
