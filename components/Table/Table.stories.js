@@ -25,3 +25,20 @@ storiesOf('Table', module)
       items
     })
   }))
+  .add('with 7 items + header', () => ({
+    components: { Table },
+    template:
+      `
+      <Table
+        :header="header"
+        :items="items"
+      />
+    `,
+    data: () => ({
+      header: [
+        'Name',
+        'Email'
+      ],
+      items
+    })
+  }))
